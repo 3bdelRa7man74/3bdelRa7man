@@ -1,0 +1,200 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+    direction: rtl;
+}
+
+body{
+    margin: 0px;
+    font-family: 'Tajawal', sans-serif;
+}
+
+body > div[id]{
+    padding:  0;
+    overflow: hidden;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+#Navbar ul{
+    background-color: crimson;
+    height: 60px;
+    font-size: 24px;
+    margin: 0px;
+}
+
+#Navbar ul li{
+    list-style-type: none;
+    display: block;
+    padding: 18px;
+    margin-left: 20px;
+    line-height: 23px;
+    float: left;
+}
+
+#Navbar li:hover{
+    background-color: red;
+}
+
+#Navbar ul .logo{
+    float: right;
+}
+
+#home{
+    background-image: url(images/notebook.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+#home h1 {
+    margin: 0 auto;
+    padding-top: 301px;
+    font-size: 70px;
+     color: rgb(4, 0, 255);
+}
+
+#home p {
+    font-size: 23px;
+    color: rgb(50, 122, 204);
+}
+
+#about{
+    height: 100vh;
+}
+
+#about img{
+    float: left;
+    width: 700px;
+    height: 600px;
+    margin-top: 184px;
+    margin-left: 53px;
+    border-radius: 134px;   
+}
+
+#text{
+    float: right;
+    margin-right: 20px;
+}
+
+#text h1{
+    margin-top: 312px;
+    font-size: 63px;
+    text-align: right;
+    color: #097ddb; ;
+}
+
+#text p{
+    width: 785px;
+    margin: auto;
+    text-align: right;
+}
+
+.clearfix{
+    clear: both;
+}
+
+#items{
+    width: 100vw;
+    float: left;
+    margin-top: 60px;
+}
+
+#items #topic{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+#items .item{
+    width: 32.5vw;
+    display: inline-block;
+    margin-left: 9px;
+}
+
+#items i {
+    font-size: 35px;
+    color: #fff;
+    background-color: crimson;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    padding-top: 8px;
+}
+
+#contact {
+    margin-top: 150px;
+    background-color: crimson;
+    color: #fff;
+}
+
+#contact form{
+    margin-top: 50px;
+    direction: rtl;
+}
+
+#contact form label{
+    margin-top: 80px;
+    font-weight: bold;
+    font-size: 20px;
+    display: block;
+}
+
+#contact form input, #contact form textarea{
+    width: 100%;
+    font-family: 'Tajawal', sans-serif;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    border-bottom:2px solid #fff ;
+    padding: 10px;
+    font-size: 18px;
+    color: #fff;
+    resize: none;
+    direction: rtl;
+}
+
+#contact form textarea{
+    height: 200px;
+}
+
+
+#contact form .half div{
+    float: right;
+    width: 50%;
+    padding: 0 50px;
+}
+
+#contact form > div:last-of-type{
+    padding: 50px;
+
+}
+
+#contact form input:focus, #contact form textarea:focus{
+    outline: none;
+    border-color: #000 ;
+}
+
+#contact form button{
+    font-family: 'Tajawal', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    padding: 10px 40px;
+    display: block;
+    background-color: #f13838;
+    margin-top: 50px;
+    margin-right: 25px;
+    border: none;
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.warning-info{
+    color: #f13838;
+    font-size: 70px;
+}
+
+.success-info{
+    color: rgb(19, 224, 19);
+}
